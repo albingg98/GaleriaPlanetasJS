@@ -1,0 +1,27 @@
+body{
+    margin: 10px;
+    padding-bottom: 100em;
+
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+}
+.img img{
+    width: 128px;
+    height: 128px;
+    display: block;
+}
+
+.centrada{
+    display: flex;
+    align-items: center;
+    
+}
+
+.img_central{
+    margin: 0 auto;
+    width: 20%;
+}
